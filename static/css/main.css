@@ -33,16 +33,14 @@ img {
 
 .header__logo {
 	color: white;
-    font-size: 80px;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: 'Noto+Serif';
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: 'Noto+Serif';
 }
 
-
 .wheel {
-	background: url(../media/main-bg.2635eb8ab26aa2c556c2.jpg) no-repeat
-		50%;
+	background: url(../media/main-bg.2635eb8ab26aa2c556c2.jpg) no-repeat 50%;
 	background-size: cover;
 	display: block;
 	height: 100%;
@@ -55,8 +53,7 @@ img {
 .wheel:before {
 	-webkit-animation: gg 5s ease-in-out infinite;
 	animation: gg 5s ease-in-out infinite;
-	background: url(../media/left-women.66592b6afdc707c0f091.png)
-		no-repeat bottom;
+	background: url(../media/left-women.66592b6afdc707c0f091.png) no-repeat bottom;
 	background-size: contain;
 	right: 70%;
 }
@@ -75,8 +72,8 @@ img {
 .wheel:after {
 	-webkit-animation: gg2 4s ease-in-out infinite;
 	animation: gg2 4s ease-in-out infinite;
-	background: url(../media/right-women.e144efb9df9ece8ce9cb.png)
-		no-repeat bottom;
+	background: url(../media/right-women.e144efb9df9ece8ce9cb.png) no-repeat
+		bottom;
 	background-size: contain;
 	left: 70%;
 }
@@ -101,6 +98,7 @@ img {
 	-webkit-animation: wheel-idle 90s linear infinite forwards;
 	animation: wheel-idle 90s linear infinite forwards;
 	margin: 0 auto;
+	position: relative;
 }
 
 .wheel__wheel.first-spin {
@@ -114,8 +112,7 @@ img {
 }
 
 .wheel__wrap {
-	background: url(../media/wheel-bg.318e4a109f37e66edc9b.png)
-		no-repeat 50%;
+	background: url(../media/wheel-bg.318e4a109f37e66edc9b.png) no-repeat 50%;
 	background-size: 100% 100%;
 	position: relative;
 }
@@ -124,8 +121,8 @@ img {
 .wheel__wrap:before {
 	-webkit-animation: light-bulb 2s step-end 0s infinite;
 	animation: light-bulb 2s step-end 0s infinite;
-	background: url(../media/wheel-bg-light.3b87a086b20493802e51.png)
-		no-repeat 50%;
+	background: url(../media/wheel-bg-light.3b87a086b20493802e51.png) no-repeat
+		50%;
 	background-size: 100% 100%;
 	bottom: 0;
 	content: '';
@@ -140,8 +137,8 @@ img {
 .wheel__wrap:after {
 	-webkit-animation: light-bulb 2s step-end 1s infinite;
 	animation: light-bulb 2s step-end 1s infinite;
-	background: url(../media/wheel-bg-light-2.70b5da9f5ed56616bd03.png)
-		no-repeat 50%;
+	background: url(../media/wheel-bg-light-2.70b5da9f5ed56616bd03.png) no-repeat
+		50%;
 }
 
 .wheel__button {
@@ -225,8 +222,7 @@ img {
 
 .popup__content,
 .popup__content:before {
-	background: url(../media/modal-bg.f09b868260c7cfe02b16.jpg)
-		no-repeat 50%;
+	background: url(../media/modal-bg.f09b868260c7cfe02b16.jpg) no-repeat 50%;
 	background-size: cover;
 	border-radius: 20px;
 }

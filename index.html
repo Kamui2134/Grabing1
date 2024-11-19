@@ -51,11 +51,12 @@
 							<source
 								src="./static/media/wheel.612026b901ec0ccbece2.wav"
 								type="audio/wav"
-							/></audio
-						><img
+							/>
+						</audio>
+						<img
 							id="wheel-img"
 							class="wheel__wheel"
-							src="./static/media/wheel-fg.68fa92127fc1a27221f7.png"
+							src="./static/media/new-wheel-fg.png"
 							alt=""
 						/>
 					</section>
@@ -146,12 +147,6 @@
 						<img
 							src="./static/media/betsoft.64907c758788832579a183b17a52aede.svg"
 							alt="betsoft"
-						/>
-					</li>
-					<li>
-						<img
-							src="./static/media/netent.6621708edd4e3820d305dcd5c54ec79f.svg"
-							alt="netent"
 						/>
 					</li>
 					<li>
@@ -307,8 +302,7 @@
 					</h2>
 					<!-- <p class="popup__text big-bonus-text">100% bonus</p> -->
 					<p class="popup__text">
-						Get up to <span class="up-to">$3,750 In  Bonuses</span>!
-                           
+						Get up to <span class="up-to">$3,750 In Bonuses</span>!
 					</p>
 					<a
 						class="clickout button popup__button"
@@ -318,8 +312,20 @@
 				</section>
 			</section>
 		</div>
-
 		<script type="text/javascript">
+			// const texts = document.querySelectorAll('.wheel__wheel-texts p')
+			// const wheelWheel = document.querySelector('.wheel__wheel')
+			// const radius = wheelWheel.offsetHeight / 2 // Радиус круга (расстояние текста от центра)
+			// const angleStep = 360 / 8 // Угол между элементами (равномерно по кругу)
+
+			// texts.forEach((text, index) => {
+			// 	text.style.transform = `
+			// 	rotate(${angleStep * index}deg)
+			// 	translate(${radius}px)
+			// 	rotate(${30 * index}deg)
+			// 	`
+			// })
+
 			var wheel = document.querySelector('#wheel-img')
 
 			function firstSpin() {
